@@ -16,3 +16,10 @@ if (numeroPecas<10) {
 
 let nomePeca = "Disco"
 console.log("O comprimento do nome da peça é:", nomePeca.length)
+
+if(nomePeca.length<3){
+    console.log("Nome de peça muito curto, não é possível cadastrar")
+}
+    else{
+        console.log("Nome adequado, podemos cadastrar")
+    }
